@@ -560,3 +560,90 @@ button {
         font-weight: 400;
     }
 }
+
+
+/* Section 2 */
+
+.page-item {
+    background-color: #f4f4fd;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.page-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+}
+
+.team-title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.page-team-photo {
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
+.team-images {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.icon-menu {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.icon-social {
+    height: 40px;
+    width: 40px;
+}
+
+.link-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.icon-link {
+    fill: #f4f4fd;
+}
