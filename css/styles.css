@@ -509,7 +509,7 @@ button {
     }
    
     .feature-item {
-         width: calc((100% - 24px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 
     .feature-title {
@@ -586,6 +586,8 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .team-title {
@@ -647,3 +649,48 @@ button {
 .icon-link {
     fill: #f4f4fd;
 }
+
+@media screen and (min-width: 768px) {
+    .page-item {
+        background-color: #f4f4fd;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .page-team {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .team-title {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .page-team-photo {
+        background-color: #ffffff;
+        border-radius: 0 0 4px 4px;
+        text-align: center;
+        border-radius: 0 0 4px 4px;
+        width: 264px;
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+    }
+
+    .icon-menu {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .icon-social {
+        height: 40px;
+        width: 40px;
+    }
+} 
