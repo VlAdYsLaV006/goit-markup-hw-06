@@ -61,13 +61,13 @@ button {
 
 @media screen and (min-width: 768px) {
     .container {
-       min-width: 768px;    
+       max-width: 768px;    
   }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-        min-width: 1158px;
+        max-width: 1158px;
         padding: 0 15px;
     }
 }
