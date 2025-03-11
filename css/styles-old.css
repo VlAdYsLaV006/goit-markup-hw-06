@@ -113,7 +113,7 @@
   color: #434455;
 } */
 /* Section 2 */
-.page-item {
+/* .page-item {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -170,7 +170,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-}
+} */
 /* Section 3 */
 .portfolio {
   text-transform: capitalize;
@@ -331,7 +331,7 @@ transform: translateY(0%);
 
 .link-social:hover,
 .link-social:focus {
- background-color: #404bbf;;
+ background-color: #404bbf;
 }
 
 .icon-link {
