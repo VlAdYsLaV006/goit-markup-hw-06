@@ -455,8 +455,9 @@ button {
     }
 
     @media (min-resolution: 2x) {
-        .hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-tab-bg@2x.jpg);
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-pc-dg@x2.jpg);
         }
-}
+    }
 }
