@@ -22,17 +22,6 @@
   margin-bottom: 120px;
 }
 
-.hero {
-  background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  max-width: 1440px;
-  margin: 0 auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 .hero-title {
   font-weight: 700;
