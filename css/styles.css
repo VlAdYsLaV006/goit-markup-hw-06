@@ -819,18 +819,8 @@ button {
     padding-top: 96px;
     padding-bottom: 96px;
     background-color: #2e2f42;
-        display: flex;
-            flex-wrap: wrap;
-}
-
-.footer-text {
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    max-width: 264px;
-    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo-footer {
@@ -950,3 +940,33 @@ button {
     left: 0;
     fill: #fff;
 }
+
+
+@media screen and (min-width: 768px) {
+    .footer-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 24px;
+        margin: auto;
+        padding-left: 108px;
+        padding-right: 164px;
+    }
+
+    .form-footer {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .subscribe-title {
+            text-align: left;
+        }
+
+    .subscribe-conteiner {
+        margin: 0;
+    }
+        .form-input {
+            width: 264px;
+        }
+
+} 
