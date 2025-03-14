@@ -472,7 +472,7 @@ input::placeholder {
 /* backdrop */
 
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -698,4 +698,4 @@ input::placeholder {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-}
+} */
