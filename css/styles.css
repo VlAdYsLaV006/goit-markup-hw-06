@@ -1199,6 +1199,7 @@ button {
 .send-btn {
     display: block;
     border-radius: 4px;
+    margin: auto;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
@@ -1275,6 +1276,8 @@ button {
 }
 
 
-@media screen and (min-width: 768px) {}
-
-@media screen and (min-width: 1158px) {}
+@media screen and (min-width: 768px) {
+   .modal {
+        width: 408px;
+    }
+}
