@@ -946,7 +946,6 @@ button {
     .footer-title {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         gap: 24px;
         margin: auto;
         padding-left: 108px;
