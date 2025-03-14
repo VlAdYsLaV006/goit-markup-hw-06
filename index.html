@@ -364,7 +364,21 @@
           <ul class="portfolio-item">
             <li class="portfolio-contents">
               <div class="card-content">
-                <img src="./images/BankingApp.jpg" alt="app1" width="360" />
+                <picture>
+                  <source srcset="./images/BankingApp-desk.png x1, 
+                                  ./images/BankingApp-desk@2x.png x2"
+                          media="(min-width: 1158px)"
+                  />
+                  <source srcset="./images/BankingApp-tab.jpg x1,
+                                  ./images/BankingApp-tab@2x.jpg x2"
+                          media="(min-width: 768px)"
+                  />
+                  <source srcset="./images/BankingApp-mod.jpg x1,
+                                  ./images/BankingApp-mod@2x.jpg x2"
+                          media="(max-width: 767px)"
+                  />          
+                  <img src="./images/BankingApp-mod.jpg" alt="app1"/>
+                </picture/>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   ·
@@ -379,7 +393,7 @@
 
             <li class="portfolio-contents">
               <div class="card-content">
-                <img src="./images/CashlessPayment.jpg" alt="Marketing" width="360" />
+                <img src="./images/CashlessPayment-mob.jpg" alt="Marketing" width="360" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   ·
@@ -394,7 +408,7 @@
 
             <li class="portfolio-contents">
               <div class="card-content">
-                <img src="./images/MeditaionApp.jpg" alt="App2" width="360" />
+                <img src="./images/MeditationApp-mob.jpg" alt="App2" width="360" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   ·
@@ -409,7 +423,7 @@
 
             <li class="portfolio-contents">
               <div class="card-content">
-                <img src="./images/TaxiService.jpg" alt="Marketing1" width="360" />
+                <img src="./images/TaxiService-mob.jpg" alt="Marketing1" width="360" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   ·
@@ -424,7 +438,7 @@
 
             <li class="portfolio-contents">
               <div class="card-content">
-                <img src="./images/ScreenIllustrations.jpg" alt="Design" width="360" />
+                <img src="./images/ScreenIllustrations-mob.jpg" alt="Design" width="360" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   ·
@@ -440,7 +454,7 @@
 
             <li class="portfolio-contents">
               <div class="card-content">
-                <img src="./images/OnlineCourses.jpg" alt="Marketing2" width="360" />
+                <img src="./images/OnlineCourses-mob.jpg" alt="Marketing2" width="360" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   ·
@@ -572,11 +586,14 @@
 
           <div class="modal-form-con-checkbox">
             <input type="checkbox" class="checkbox visually-hidden" id="user-privacy" value="true" name="user-privacy"/>
-            <label class="label-checkbox" for="user-privacy"><span class="custom-checkbox">
-              <svg width="10" height="8">
-                <use href="./images/icons.svg#icon-cheked"></use>
-              </svg>
-            </span>I accept the terms and conditions of the <a class="label-link" href="">Privacy Policy</a></label>
+            <label class="label-checkbox" for="user-privacy">
+              <span class="custom-checkbox"> 
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#icon-cheked"></use>
+                </svg>
+              </span>
+              <span>I accept the terms and conditions of the<a class="label-link" href="">Privacy Policy</a></span>
+            </label>
           </div>
           <button class="send-btn" type="submit">Send</button>
         </form>
