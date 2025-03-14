@@ -996,6 +996,15 @@ button {
     fill: #fff;
 }
 
+@media screen and (max-width: 767px) {
+    .main-footer {
+        margin-bottom: 72px;
+    }
+
+    .social-footer {
+        margin-bottom: 72px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     
