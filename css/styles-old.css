@@ -171,7 +171,9 @@
   text-align: center;
   color: #434455;
 } */
+
 /* Section 3 */
+
 /* .portfolio {
   text-transform: capitalize;
   background-color: #fff;
@@ -468,6 +470,8 @@ input::placeholder {
 
 
 /* backdrop */
+
+
 .backdrop {
   position: fixed;
   top: 0;
