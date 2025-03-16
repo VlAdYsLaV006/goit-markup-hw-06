@@ -1016,7 +1016,7 @@ button {
     .footer-title {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 72px 24px;
         width: 584px;
     }
 
