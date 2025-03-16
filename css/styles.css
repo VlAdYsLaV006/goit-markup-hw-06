@@ -864,9 +864,6 @@ button {
 
     /* Footer */
 
-.main-footer {
-    margin-bottom: 72px;
-}
 
 .footer {
     padding-top: 96px;
@@ -900,10 +897,6 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 288px;
-}
-
-.social-footer {
-    margin-bottom: 72px;
 }
 
 .icon-title {
@@ -996,7 +989,7 @@ button {
     fill: #fff;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
     .main-footer {
         margin-bottom: 72px;
     }
@@ -1006,8 +999,7 @@ button {
     }
 }
 
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width: 768px) { 
 
     .logo-footer {
         justify-content: left;
