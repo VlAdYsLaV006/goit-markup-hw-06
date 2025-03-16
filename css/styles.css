@@ -375,10 +375,9 @@ button {
     background-position: center;
 }
 
-    @media (min-resolution: x2) {
+    @media (min-resolution: 2x) {
         .hero {
-            background-image: url(../images/hero-mob-bg@2x.jpg);
-    
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-mob-bg@2x.jpg);
         }
     }
 
@@ -492,6 +491,11 @@ button {
 
 .features {
     padding: 96px 0;
+}
+
+.feature-item {
+    width: 320px;
+    margin: auto;
 }
 
 .feature-list {
