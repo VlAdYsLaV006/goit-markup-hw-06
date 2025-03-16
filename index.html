@@ -204,11 +204,14 @@
           <h2 class="page-team">Our Team</h2>
           <ul class="team-list">
             <li class="page-team-photo">
-              <img
-                srcset="./images/teamcard1.jpg 1x, ./images/teamcard1@2x.jpg 2x"
-                src="./images/teamcard1.jpg" 
-                alt="photo1" width="264"  
-              />
+              <picture>
+                <source
+                  srcset="./images/bankingapp-mob.jpg 1x, ./images/teamcard1@2x.jpg 2x"
+                  src="./images/teamcard1.jpg"
+                  alt="photo1" width="264"
+                />
+                <img srcset="./images/teamcard1.jpg" alt="photo1" width="264" />
+              </picture>
               <div class="team-title">
                 <h3 class="team-images">Mark Guerrero</h3>
                 <p class="title">Product Designer</p>
@@ -286,7 +289,8 @@
             </li>
 
             <li class="page-team-photo">
-              <img src="./images/teamcard3.jpg" alt="photo3" width="264" 
+              <img 
+                src="./images/teamcard3.jpg" alt="photo3" width="264" 
                 srcset="./images/teamcard3.jpg 1x, ./images/teamcard3@2x.jpg 2x"
               />
               <div class="team-title">
@@ -391,8 +395,8 @@
                   />
                   <source 
                     srcset="
-                      ./images/bankingapp-mob.jpg 1x,
-                      ./images/bankingapp-mob@2x.jpg 2x"
+                      ../images/bankingapp-mob.jpg 1x,
+                      ../images/bankingapp-mob@2x.jpg 2x"
 
                     media="(max-width: 767px)" 
                   />
