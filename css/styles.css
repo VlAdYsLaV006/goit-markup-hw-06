@@ -466,7 +466,8 @@ button {
         padding-top: 188px;
         padding-bottom: 188px;
         max-width: 1440px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-pc-dg.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url(../images/hero-pc-dg.jpg);
     }
 
     .hero-title {
@@ -475,7 +476,7 @@ button {
 
     @media (min-resolution: 2x) {
         .hero {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
             url(../images/hero-pc-dg@2x.jpg);
         }
     }
